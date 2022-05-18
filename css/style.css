@@ -91,13 +91,20 @@ section {
 }
 .button,
 .button:after {
-  -webkit-transition: all 0.5s ease-out;
-  -moz-transition: all 0.5s ease-out;
-  -o-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
 }
 .button:hover {
   border: 4px solid var(--main-light);
+  color: var(--font-light);
+}
+.button a {
+  color: var(--font-dark);
+}
+.button:hover a,
+.button:focus a {
   color: var(--font-light);
 }
 
@@ -364,25 +371,14 @@ header {
   line-height: 1.8rem;
   margin-bottom: 5rem;
 }
-.resume-down-button {
-  text-decoration: none;
-  color: var(--font-dark);
-  transition: 0.3s;
-}
-.resume-down-button a {
-  color: var(--font-dark);
-}
+
 .resume-down-button span {
   display: inline-block;
   margin-left: 10px;
   font-weight: 700;
   animation: resume-arrow 2s infinite;
 }
-.resume-down-button:hover {
-  background-color: var(--main-medium);
-  color: var(--font-light);
-  font-weight: 600;
-}
+
 .resume-down-button:hover span {
   transform: translateX(5px);
 }
