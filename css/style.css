@@ -369,6 +369,9 @@ header {
   color: var(--font-dark);
   transition: 0.3s;
 }
+.resume-down-button a {
+  color: var(--font-dark);
+}
 .resume-down-button span {
   display: inline-block;
   margin-left: 10px;
