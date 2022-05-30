@@ -108,24 +108,6 @@ section {
   color: var(--font-light);
 }
 
-/* 클릭 효과  */
-.ripple {
-  width: 8px;
-  height: 8px;
-  background: transparent;
-  position: fixed;
-  border-radius: 50%;
-  animation: effect 1s linear;
-  border: 0.8px solid rgba(32, 231, 194, 0.4);
-}
-
-@keyframes effect {
-  100% {
-    transform: scale(8);
-    opacity: 0.1;
-  }
-}
-
 /* ==========HEADER========== */
 header {
   position: fixed;
