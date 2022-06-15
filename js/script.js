@@ -57,3 +57,13 @@ function scrollActive() {
   });
 }
 window.addEventListener("scroll", scrollActive);
+
+/*=============== REMOVE MENU MOBILE ===============*/
+// const navLink = document.querySelectorAll(".nav-link");
+
+// function linkAction() {
+//   const navMenu = document.getElementById("nav");
+//   // When we click on each nav__link, we remove the show-menu class
+//   navMenu.classList.remove("open");
+// }
+// navLink.forEach((n) => n.addEventListener("click", linkAction));
